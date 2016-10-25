@@ -12,5 +12,6 @@ COPY package.json npm-shrinkwrap.json /usr/src/app/
 RUN npm install
 
 EXPOSE 3000
+WORKDIR /api
 
 ENTRYPOINT [ "raml-server", "/api" ]
