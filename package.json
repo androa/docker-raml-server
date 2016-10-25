@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "raml-server": "^0.1.5"
+    "raml-server": "farolfo/raml-server"
   },
   "devDependencies": {},
   "scripts": {
