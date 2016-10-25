@@ -1,6 +1,6 @@
 # RAML Server as a Container
 
-This container provides (RAML Server)[https://github.com/farolfo/raml-server] as
+This container provides [RAML Server](https://github.com/farolfo/raml-server) as
 a Docker Container for ease of use.
 
 It gives you fully functional REST APIs based on a RAML specification with
