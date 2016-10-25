@@ -15,6 +15,8 @@ Start the image with Docker:
 Or make a docker-compose target like this:
 
 ```
+version: '2'
+services:
   api-mock:
     image: androa/raml-server
     ports:
