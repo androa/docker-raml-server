@@ -13,7 +13,7 @@ USER app
 ENV PATH "/usr/src/app/node_modules/.bin:$PATH"
 
 COPY package.json npm-shrinkwrap.json /usr/src/app/
-RUN npm install
+RUN npm install && npm cache clean
 
 EXPOSE 3000
 WORKDIR /api
